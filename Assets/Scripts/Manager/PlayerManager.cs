@@ -14,6 +14,6 @@ public class PlayerManager : MonoBehaviour
 
     public void OnPlayerLeft(PlayerInput playerInput)
     {
-       
+        Destroy(playerInput.gameObject);
     }
 }
